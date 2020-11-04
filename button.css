@@ -1,0 +1,22 @@
+.block{
+background: coral;
+width: 200px;
+margin: 0 auto;
+text-align: center;
+padding: 50px;
+text-transformation: uppercase;
+font-family: 'arial', sans-serif;
+font-weight: bold;
+margin-top: 45px;
+color: white;
+padding: 20px;
+display: block;
+background-image: linear-gradient(to left, transparent, transparent 50%, cornflowerblue 50%, cornflowerblue);
+background-position: 100% 0;
+background-size: 200% 100%;
+transition: all 0.25s ease-in;
+}
+.block:hover {
+background-position: 0 0;
+color: #333;
+}
